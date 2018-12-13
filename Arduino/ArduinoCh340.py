@@ -23,8 +23,8 @@ os.system('arduino-1.8.8-windows.exe')
 print('Instalando Controlador')
 wget.download(urlCH340)
 os.system('CH341SER.EXE')
-if os.path.exists("arduino-1.6.5-r5-windows.exe"):
-    os.remove('arduino-1.6.5-r5-windows.exe')
+if os.path.exists("arduino-1.8.8-windows.exe"):
+    os.remove('arduino-1.8.8-windows.exe')
 if os.path.exists("CH341SER.EXE"):
     os.remove('CH341SER.EXE')
 print(' Instalación terminada. Adiós...')
